@@ -78,17 +78,20 @@ body{
   padding-bottom: 10px;
 }
 .card-body .card-text{
-  font-size: 10px;
-  width: 200px;
+ 
 }
-
+.card-bodymiddle{
+  font-size: 20px;
+  margin-top: -70px;
+  margin-left: 30%;
+}
 
 .divgauche{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   border: 1px solid blueviolet;
-  width: 50%;
-  margin-left: 20%;
+  width: 100%;
+  /* margin-left: 20%; */
   margin-top: 20px;
 }
 /* .divpetitgauche1 css */
@@ -117,10 +120,26 @@ body{
 }
 
 .card-bodymiddle{
-  margin-right: 90px;
+ /* margin-left: 25%;
+ margin-top: -10%; */
 }
-
-
+.rowinfo[
+  margin-top: 10px;
+]
+.image-okay{
+  float: left;
+  height: 150px;
+  margin-right: 50px;
+}
+p.card-text{
+  width: 100%;
+}
+#image-okay{
+  margin-right: 50px;
+}
+.image-okay img{
+height: 100%;
+}
 .text-lowercase2{
   background-color: white;
   height: 30px;
@@ -141,7 +160,7 @@ body{
 /* . debut divpetitgauche2 css */
 .divpetitgauche2{
   background-color: white;
-  width: 124%;
+  width: 100%;
   margin-right: 20%;
   /* border: 2px solid#0bc401; */
 }
@@ -569,6 +588,7 @@ footer .footer-copyright .copyright {
   .index-newsletter button {
       width: 25%;
       font-size: 12px;
+      margin-top: 30px;
   }
 
   .banner .banner-text h2{
