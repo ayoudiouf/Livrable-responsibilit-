@@ -4,19 +4,19 @@ body{
 /* debut divprmiere */
 .divprmiere{
 background-color: white;
-/* margin-top: 30px; */
+margin-top: 30px;
 gap: 30px;
 }
 .divprmiere{
-  
   display: flex;
-  
   justify-content: center;
   align-items: center;
+  width: 100%;
+  /* margin: 0 auto; */
+  /* margin-left: 50px; */
 }
 .image img{
- 
-  /* margin-top: 30px; */
+ margin-left: 10px;
 }
 .texte{
   margin-top: 30px;
@@ -40,7 +40,7 @@ gap: 30px;
 }
 .icon{
   background-color: #EEEEEE;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   padding-right: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -64,7 +64,9 @@ gap: 30px;
 /* debut review */
 .review {
   /* border: 1px solid rgba(0, 0, 0, 0.413); */
-  width: 100%;
+  width: 50%;
+  /* margin-left: 50px; */
+  margin-top: 20px;
  
 }
 .review p{
@@ -81,98 +83,87 @@ gap: 30px;
 }
 /* fin review */
 
-/* debut div costumer review */
+/* debut div costumer review  */
+
+
 .lastcontainer{
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
-  width: 100%;
-  /* background-color: #C87065; */
-  margin-top: 20px;
+  justify-content: space-around;
+  
 }
   .last{
-   width: 100%;
+   width: 90%;
+   margin-bottom: 30px;
+   background-color: white;
+   margin-left: 10px;
+   margin-top: 20px;
+   /* padding-left: 50px; */
+    padding-right: 20px;
   }
+  .last h3::after{
+    content: '';
+   width: 40px;
+   border-bottom: 3px rgba(216, 211, 211, 0.82) solid;
+   display: block;
+   padding-bottom: 10px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+   margin-left: 10px;
+   }
+   .last h3{
+   padding-top: 10px;
+   margin-left: 10px;
+   }
   .imageinfo {
     margin-left: 10px;
-    background-color: white;
-   
+    /* background-color: white; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* width: 100%; */
   }
   .imageinfo h3{
     padding-top: 20px;
    
   }
-  .imageinfo hr{
-  width: 10%;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  .imageinfo  p{
+   width: 100%;
    
   }
+
 
   .imageinfo img{
     margin-left: 20px;
     background-color: white;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-  }
-  .imageinfo p{
-    font-size: small;
-    padding-top: -20px;
-    /* margin-top: -10px; */
-  }
-  .imageinfo h3{
-   margin-left: 20px;
-    
-  }
-  .info1{
-    
-    margin-top: -22%;
-    margin-left: 40%;
-  }
-  .info1 h4{
-   width: 50%;
-  }
-  .info1 p{
-    font-size: 10px;
-   }
-   .info1 h5{
-    font-size: 10px;
-  }
-  .info1 small{
-    font-size: 10px;
-  }
- 
-  .info{
-    margin-top: -22%;
-    margin-left: 30%;
-    
-  }
-  .info h5{
-    font-size: 10px;
-  }
-  .info small{
-    font-size: 10px;
-  }
-  .info p{
-    font-size: 10px;
+  
   }
 
+ 
  .img2{
-  margin-left: 60px;
+  margin-left: 10px;
   padding-top: 30px;
  } 
  .icon-link{
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  padding-top: 30px;
  
  }
- .soustitre{
-  margin-left: 20px;
-  padding-top: 20px;
-  margin-bottom: 20px;
+
+ .info{
+  font-size: 13px;
+  margin-top: 10px;
  }
+
+ .info1{
+  font-size: 13px;
+  margin-top: 25px;
+ }
+ .soustitre{
+ margin-left: 10px;
+
+}
  input{
-  margin-left: 20px;
+  margin-left: 10px;
   margin-bottom: 20px;
  
  }
@@ -189,13 +180,104 @@ gap: 30px;
  }
 
 /* fin div costumer review */
+ul li{
+  list-style: none;
+}
+.mesproduit{
+  margin-left: 10px;
+  color: #EEEEEE;
+}
+.divgauche{
+  margin-bottom: 30px;
+  /* margin-left: 20%; */
+}
 
+/* debut div droite */
+
+
+.mere{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.divdroite{
+  width: 60%;
+ /* margin-bottom: 10px; */
+ /* margin-left:20%; */
+ margin-left: 10%;
+ margin-top: 20px
+ /* padding-top: 10px */
+}
+#droite1{
+  margin-bottom: ;
+}
+#cardsmiddle1{
+  background-color: white;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#cardsmiddle1 p{
+  /* padding-top: -20px; */
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+#cardsmiddle1 ul li{
+ margin-left: 20px;
+}
+#cardsmiddle2{
+  background-color: white;
+  margin-bottom: 20px;
+  width: 100%;
+}
+#cardsmiddle2 p{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+#cardsmiddle2 hr{
+  margin-bottom: 10px;
+}
+.containerimage{
+
+  /* margin-bottom: 20px; */
+}
+#cardsmiddle3{
+  background-color: white;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.cardsmiddleimage img{
+  width: 25%;
+  margin-left: 10px;
+
+}
+.cardsmiddleinfo h5{
+ margin-left: 30%;
+position: relative;
+top: -70px;
+}
+.cardsmiddleinfo h6{
+  margin-left: 30%;
+  position: relative;
+top: -70px;
+}
+#cardsmiddle3 img{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* fin div droite */
 @media screen and (max-width: 767px){
   .divprmiere{
     /* border: 1px solid red; */
     display: flex;
    flex-direction: column;
-   
+   width: 100%;
   }
   .mesicon{
     display: flex;
@@ -206,15 +288,36 @@ gap: 30px;
     display: flex;
     flex-direction: column;
   }
-  .lastcontainer p{
-   
-  }
+ 
   .imageinfo{
-    
     display: grid;
     grid-template-columns: 1fr ;
-    
+    width: 100%;
+   
   }
+  .review{
+    width: 100%;
+  }
+  .mere{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  /* .review {
+    border: 1px solid rgba(0, 0, 0, 0.413);
+    width: 100%;
+   
+  } */
+ 
+  .divdroite{
+    width: 100%;
+   
+   }
+   .last{
+    width: 100%;
+   }
+ 
 }
 * {
   padding: 0;
